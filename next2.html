@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Kritika</title>
+  
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Optional: Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+
+  <!-- Optional: Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <h1 class="sec-text">Comic</h1>
+  </header>
+
+  <main>
+    <div class="slider-container">
+        <button class="arrow left" onclick="prevImage()">&#10094;</button>
+      
+        <img id="slider-image" src="1.png" alt="Slide Image" />
+      
+        <button class="arrow right" onclick="nextImage()">&#10095;</button>
+    </div>
+      
+    <p>
+    <a href="next3.html">
+        <button class="glow-button">Next</button>
+    </a></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
